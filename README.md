@@ -8,15 +8,33 @@
 
 **Who:** Valentin Lauret, Javi Fernandez-Lopez
 
-**When:** May 13-15, 2024
+**When:** May 13-15, 2024. From 9h30 to 13h30.
 
-**Where:** IREC, Royal City.
+**Where:** Sala de master, IREC, Royal City.
+
+## Program
+
+### Day 1 - Introduction to modelling with R and Nimble
+
+  1. **Generalized Linear Models with R**: probability distribution, basics of programmation, simulations and models.
+  2. **Introduction to Baysian analysis and Nimble**: what is Bayesian, what is Nimble, what for in ecology.
+  
+### Day 2 - Ecological models
+
+  1. Occupancy models
+  2. N-mixture models
+  3. Spatial Capture-Recpature
+  
+### Day 3 - Applications
+
+  1. A case study by Pepe Jiménez.
+  2. Work with provided datasets or your own data.
 
 ## Requirements
 
-  * Install `R` and `RStudio`.
+  * Install ![R](https://cloud.r-project.org/) and ![RStudio](https://posit.co/download/rstudio-desktop/#download).
 
-  * Install `Nimble` following these guidelines. Then run the following code in R. If that runs without error, you’re all set. If not, please get in touch with us.
+  * Install `Nimble` following ![these guidelines](https://r-nimble.org/download). Then run the following code in R. If that runs without error, you’re all set. If not, please get in touch with us.
 
 ```
 library(nimble)
@@ -25,7 +43,6 @@ library(nimble)
   })
   model <- nimbleModel(code)
   cModel <- compileNimble(model)
-  
 ```
 
   * Install the following R packages: `tidyverse`, `mcmcplots`, `coda`. You can install them all at once by running the following code in R:
