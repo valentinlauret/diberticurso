@@ -45,7 +45,7 @@ library(nimble)
   cModel <- compileNimble(model)
 ```
 
-  * Install the following R packages: `tidyverse`, `mcmcplots`, `coda`. You can install them all at once by running the following code in R:
+  * Install the following R packages: `tidyverse`, `MCMCvis`. You can install them all at once by running the following code in R:
 
 ```
 install.packages(c("tidyverse", "mcmcplots", "coda"))
