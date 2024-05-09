@@ -4,3 +4,6 @@
 .Ruserdata
 img/
 slides/
+.nojekyll
+codeSCR
+mcmc_gif2.R
