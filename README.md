@@ -1,10 +1,13 @@
 # (d)IBERticurso
 
+![](dibertilogo.png)
+
+Website: https://jabiologo.github.io/web/tutorials/IBER24.html
+
 **What:** This is a workshop on introduction to Bayesian inference. Hopefully, you will learn about how to make Bayesian models for population ecology. Our hope is to provide you with what you need to go your own path in Bayesian modelling. We will present how to run occupancy model, N-mixture model, and Spatial Capture-Recapture models.
 
 **For whom:** This is a workshop for ecologists. No previous experience with Nimble or Bayesian statistics is assumed, and few knowledge of R is required.
 
-**How:** Through a combination of lectures and live demonstrations, you will get acquainted with the Bayesian approach, MCMC methods and the R Nimble package to fit single-site, multi-site, multi-state and multi-event models to capture-recapture data within the hidden Markov modeling (HMM) framework.
 
 **Who:** Valentin Lauret, Javi Fernandez-Lopez
 
