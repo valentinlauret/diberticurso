@@ -1,6 +1,6 @@
 # (d)IBERticurso
 
-![](dibertilogo.png){width=200}
+<img src="dibertilogo2.png" alt="drawing" width="200"/>
 
 Website: https://jabiologo.github.io/web/tutorials/IBER24.html
 
