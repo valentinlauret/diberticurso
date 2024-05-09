@@ -20,7 +20,7 @@ Website: https://jabiologo.github.io/web/tutorials/IBER24.html
 ### Day 1 - Introduction to modelling with R and Nimble
 
   1. **Generalized Linear Models with R**: probability distribution, basics of programmation, simulations and models.
-  2. **Introduction to Baysian analysis and Nimble**: what is Bayesian, what is Nimble, what for in ecology.
+  2. **![Introduction to Baysian analysis and Nimble](https://vlauret.quarto.pub/diberticurso_2_introbayesian/)**: what is Bayesian, what is Nimble, what for in ecology.
   
 ### Day 2 - Ecological models
 
@@ -32,6 +32,10 @@ Website: https://jabiologo.github.io/web/tutorials/IBER24.html
 
   1. A case study by Pepe Jiménez.
   2. Work with provided datasets or your own data.
+  
+## Materials
+
+  * [Codes](codes/)
 
 ## Requirements
 
