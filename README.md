@@ -1,6 +1,6 @@
 # (d)IBERticurso
 
-![](dibertilogo.png)
+![](dibertilogo.png){width=200}
 
 Website: https://jabiologo.github.io/web/tutorials/IBER24.html
 
