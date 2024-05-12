@@ -21,7 +21,7 @@ mod <- glm(conteo ~ temp, data = datos, family = poisson(link = "log"))
 ## ---------------------------------------------------------------------------------------------------------------------
  
 # nimble model
-glm.wb <- nimbleCode({
+glm.rd <- nimbleCode({
  
    # priors
    b0 ~ dnorm(0, 1)
@@ -58,7 +58,7 @@ glm.wb <- nimbleCode({
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Run with Nimble
-  mcmc.output <- nimbleMCMC(code = glm.wb,
+  mcmc.output <- nimbleMCMC(code = glm.rd,
                            data = my.data,
                            constants = my.constants,
                            inits = initial.values,
@@ -128,11 +128,11 @@ pred.results %>%
   geom_line() + 
   geom_line(aes(x = temp, y= cinf), linetype = 2, color = "#D2A34E" )+
   geom_line(aes(x = temp, y= csup), linetype = 2, color = "#D2A34E" )+
-  labs(title = "Number of wild boar poop (WBP) as a function of temperature",
+  labs(title = "Number of roe deer poop (RDP) as a function of temperature",
        subtitle = paste0("b0 = ", round(mean(mcmc.bind[,"b0"]),2),
                          " & b1 = ",  round(mean(mcmc.bind[,"b1"]),2)),
        x = "Temperature",
-       y = "Nb of WBP") + 
+       y = "Nb of RDP") + 
   theme_minimal()+
   theme(text = element_text(face = "bold", family = "Comic Sans MS", color ="#840032"),
         plot.subtitle =  element_text(family = "Times"))
