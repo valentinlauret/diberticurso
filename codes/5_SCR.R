@@ -182,6 +182,7 @@ samples <- runMCMC(Cmcmc,
 
 # load results if you dont want to run it
 # load("scr_simulation.rdata")
+# results are here https://github.com/valentinlauret/diberticurso/tree/main/codes
 
 
 library(MCMCvis)
