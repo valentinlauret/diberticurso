@@ -26,7 +26,7 @@ Website: https://jabiologo.github.io/web/tutorials/IBER24.html
 
   1. Occupancy models
   2. N-mixture models
-  3. Spatial Capture-Recpature
+  3. [Spatial Capture-Recpature](https://vlauret.quarto.pub/diberticurso_5_scr/)
   
 ### Day 3 - Applications
 
