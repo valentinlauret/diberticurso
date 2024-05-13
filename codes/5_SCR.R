@@ -180,8 +180,8 @@ samples <- runMCMC(Cmcmc,
 
 ## -----------------------------------------------------------------------------------------------------------------------------------
 
-# load results
-load("scr_simulation.rdata")
+# load results if you dont want to run it
+# load("scr_simulation.rdata")
 
 
 library(MCMCvis)
