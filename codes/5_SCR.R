@@ -182,7 +182,7 @@ samples <- runMCMC(Cmcmc,
 
 # load results
 load("scr_simulation.rdata")
-load("scr_simulation2.rdata")
+
 
 library(MCMCvis)
 MCMCtrace(samples, pdf = F)
